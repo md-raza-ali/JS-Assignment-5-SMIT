@@ -22,7 +22,41 @@
 //     alert(`The absolute value of ${input} is ${input}`);
 // }
 
+// ANSWER NO: 04
+// let randomNum = (Math.random() * 6);
+// randomNum = Math.round(randomNum) + 1;
+// alert(`Random dice value is: ${randomNum}`);
 
+// ANSWER NO: 05
+// let randomNum = (Math.random() * 1);
+// randomNum = Math.round(randomNum);
+// if(randomNum == 0){
+//     randomNum = randomNum + 1;
+//     alert(`Heads: ${randomNum}`);
+// }else{
+//     randomNum = randomNum + 1;
+//     alert(`Tails: ${randomNum}`);
+// }
+
+// ANSWER NO: 06
+// let randomNum = (Math.random() * 100);
+// randomNum = Math.round(randomNum) + 1;
+// alert(`Random number between 1 and 100: ${randomNum}`);
+
+// ANSWER NO: 07
+// let userInput = prompt("Enter your weight in Kilograms..");
+// let weight = parseFloat(userInput.replace(/[^\d.]/g, ""));
+// alert(`The weight of user is ${weight} Kilograms`);
+
+// ANSWER NO: 08
+// let userInput = +prompt("Guess a number between 1 and 10");
+// let secNum = Math.random() * 10;
+// secNum = Math.round(secNum);
+// if(userInput == secNum){
+//     alert(`You Won!`);
+// }else{
+//     alert(`You lose! ${secNum}`);
+// }
 
 
 // <<<<<<<<<< CHAPTER NO: 31 TO 34 >>>>>>>>>>
